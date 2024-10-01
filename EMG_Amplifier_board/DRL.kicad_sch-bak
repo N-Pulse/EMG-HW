@@ -2,145 +2,9 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "0d3c6ffb-a38f-4a36-9850-06cafdf82141")
+	(uuid "55aebef7-ba73-41cd-8409-51074960ee58")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Device:C"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -520,202 +384,308 @@
 		)
 	)
 	(junction
-		(at 171.45 74.93)
+		(at 146.05 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8bda9cbf-c21f-47a3-8ff7-6eb0f5abca9a")
+		(uuid "0b2e3010-d435-4167-8b53-d5670b7ee5c4")
 	)
 	(junction
-		(at 171.45 91.44)
+		(at 134.62 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d6414f84-fab5-41e2-a361-92b9059f4c64")
+		(uuid "56eb2540-8aa3-478e-8b0e-e8ab2b61e19c")
 	)
 	(junction
-		(at 115.57 64.77)
+		(at 134.62 62.23)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e1da4ebb-dc73-4d67-9bab-c61262298547")
+		(uuid "7c758edc-847c-4b58-8dab-abefd5ed2f9d")
 	)
 	(junction
-		(at 115.57 93.98)
+		(at 186.69 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "eb4d0cb6-049d-438c-bd3b-3ec322c9acaa")
+		(uuid "7d998fb4-7747-4697-b65c-c8b6685c8765")
+	)
+	(junction
+		(at 120.65 91.44)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fc944e09-4c51-42cf-929d-e97a4d1cb79a")
 	)
 	(wire
 		(pts
-			(xy 102.87 101.6) (xy 102.87 106.68)
+			(xy 146.05 91.44) (xy 147.32 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b70842c-512c-41e2-9179-8e779e67d7f3")
+		(uuid "058a0715-13b9-4fec-bb6a-4d78b041559c")
 	)
 	(wire
 		(pts
-			(xy 115.57 64.77) (xy 124.46 64.77)
+			(xy 134.62 57.15) (xy 134.62 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0b9f2cde-6437-44bb-9d83-1d8a2b8fb711")
+		(uuid "0ad5a23b-368e-4851-96e1-a7717b4365fd")
 	)
 	(wire
 		(pts
-			(xy 171.45 91.44) (xy 191.77 91.44)
+			(xy 134.62 111.76) (xy 134.62 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4fd9537c-ebb6-4402-96e5-67dced2ef01f")
+		(uuid "2bed9e75-9b70-44c3-8b0b-0b90484dbadc")
 	)
 	(wire
 		(pts
-			(xy 166.37 101.6) (xy 179.07 101.6)
+			(xy 134.62 101.6) (xy 110.49 101.6)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "59a04202-8971-4eca-a4e4-d158dae202c8")
+		(uuid "3ee8f515-d214-487f-bd7a-a96a91de9a2a")
 	)
 	(wire
 		(pts
-			(xy 107.95 64.77) (xy 115.57 64.77)
+			(xy 134.62 86.36) (xy 110.49 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5a6f2977-4320-4442-ac67-68d7bc50d7e4")
+		(uuid "4313d350-a097-4d55-863f-4652e029ebb4")
 	)
 	(wire
 		(pts
-			(xy 115.57 93.98) (xy 130.81 93.98)
+			(xy 74.93 93.98) (xy 68.58 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5add374a-9da3-49fc-8ba5-00e8e433cfc3")
+		(uuid "498a71be-c437-4a62-8528-6cc05cd6b72c")
 	)
 	(wire
 		(pts
-			(xy 166.37 86.36) (xy 179.07 86.36)
+			(xy 182.88 88.9) (xy 186.69 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "72a3fe5a-4e37-471f-a3fa-0e45020099af")
+		(uuid "5191cab3-7060-4d29-b69d-5f894ba9211d")
 	)
 	(wire
 		(pts
-			(xy 171.45 74.93) (xy 171.45 91.44)
+			(xy 182.88 62.23) (xy 182.88 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "732c4c41-246d-484e-a1c2-108dddbb4398")
+		(uuid "61ea1af5-cfbf-429b-bb6c-0318f1d129f5")
 	)
 	(wire
 		(pts
-			(xy 132.08 64.77) (xy 171.45 64.77)
+			(xy 142.24 85.09) (xy 142.24 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "841b3b28-7369-4a7c-8342-980ec5aca625")
+		(uuid "6e51d962-8587-4050-91fc-72b0d84ac8ce")
 	)
 	(wire
 		(pts
-			(xy 171.45 64.77) (xy 171.45 74.93)
+			(xy 146.05 72.39) (xy 146.05 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "93fab2e0-ddbb-4a9b-8d9a-aff5d813849c")
+		(uuid "7ac5d029-6fdd-442f-825c-c70881aed63e")
 	)
 	(wire
 		(pts
-			(xy 95.25 64.77) (xy 100.33 64.77)
+			(xy 134.62 101.6) (xy 134.62 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "adba4baf-00fc-4345-a1ad-6fd331dabbab")
+		(uuid "7f0b8cae-aa33-471c-ac2a-1b749feda5e9")
 	)
 	(wire
 		(pts
-			(xy 115.57 93.98) (xy 115.57 88.9)
+			(xy 186.69 72.39) (xy 167.64 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0e01453-8104-4574-81aa-43d4ed14e55e")
+		(uuid "964c6be9-bd4c-4083-a15a-e532ffc936ed")
 	)
 	(wire
 		(pts
-			(xy 130.81 91.44) (xy 130.81 74.93)
+			(xy 68.58 93.98) (xy 68.58 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bef2d649-d782-4867-bb8b-f855436606b7")
+		(uuid "96ecac1f-15f4-45b3-8b9e-9a213f998684")
 	)
 	(wire
 		(pts
-			(xy 102.87 93.98) (xy 115.57 93.98)
+			(xy 120.65 91.44) (xy 124.46 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c09556db-0887-47a1-93a6-31b69a73e1f5")
+		(uuid "9b03d3fa-8fb0-4c34-bf06-4d0ebddb2f41")
 	)
 	(wire
 		(pts
-			(xy 171.45 91.44) (xy 166.37 91.44)
+			(xy 142.24 88.9) (xy 147.32 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c885e972-d5b0-4f97-af25-f6e6cef051eb")
+		(uuid "a23f1fa2-5c9b-4238-9028-cb9016882e84")
 	)
 	(wire
 		(pts
-			(xy 115.57 64.77) (xy 115.57 81.28)
+			(xy 160.02 72.39) (xy 146.05 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d039a38d-3195-4433-803d-3af911c7ae05")
+		(uuid "a6700fb1-8b08-4fdc-8038-0a3135a5366e")
 	)
 	(wire
 		(pts
-			(xy 130.81 74.93) (xy 171.45 74.93)
+			(xy 134.62 62.23) (xy 182.88 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f4f9c166-b92c-4235-8a93-4deeef795286")
+		(uuid "b50a48f0-2eab-47e9-90f6-d8e50fa2220e")
 	)
-	(hierarchical_label "V_DD"
+	(wire
+		(pts
+			(xy 120.65 111.76) (xy 120.65 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9c00a5b-c50c-46b7-8155-9333e0fb6c67")
+	)
+	(wire
+		(pts
+			(xy 62.23 91.44) (xy 74.93 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf28df5-c9f4-4e36-b9e3-2517f2e8ae11")
+	)
+	(wire
+		(pts
+			(xy 134.62 111.76) (xy 182.88 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bfc4a55f-f46d-4b81-8d06-1068811af312")
+	)
+	(wire
+		(pts
+			(xy 186.69 88.9) (xy 186.69 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3da0c0f-92a6-44e1-ad70-dc6361d4f345")
+	)
+	(wire
+		(pts
+			(xy 134.62 62.23) (xy 134.62 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c80e4760-ef44-44d0-b894-100261712165")
+	)
+	(wire
+		(pts
+			(xy 182.88 111.76) (xy 182.88 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cdcd5bd3-86d1-4308-bbb0-d6e1a3829337")
+	)
+	(wire
+		(pts
+			(xy 68.58 111.76) (xy 120.65 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ceae3299-18ab-43ce-852f-6d7839b5386d")
+	)
+	(wire
+		(pts
+			(xy 132.08 91.44) (xy 146.05 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d853e43a-5661-4660-b8f3-3c3942dcf077")
+	)
+	(wire
+		(pts
+			(xy 110.49 91.44) (xy 120.65 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da7f3918-738d-4b33-b221-caa4031257a5")
+	)
+	(wire
+		(pts
+			(xy 186.69 88.9) (xy 190.5 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ac4dd7-141e-43cc-8c81-4db59da5bf99")
+	)
+	(hierarchical_label "V_PR"
 		(shape input)
-		(at 179.07 101.6 0)
+		(at 190.5 88.9 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -723,35 +693,11 @@
 			)
 			(justify left)
 		)
-		(uuid "0ef95b1a-18cc-46e4-86e1-9e45f894837a")
-	)
-	(hierarchical_label "V_EMG_OUT"
-		(shape input)
-		(at 191.77 91.44 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "4fb8b28f-27f4-4392-a7ce-1d63fff51468")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 102.87 106.68 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "75a39c55-5f3a-4fed-9f42-014a91a355ed")
+		(uuid "769532d7-c266-49c3-9e6c-24952884a11d")
 	)
 	(hierarchical_label "+V_DD"
 		(shape input)
-		(at 179.07 86.36 0)
+		(at 134.62 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -759,11 +705,23 @@
 			)
 			(justify left)
 		)
-		(uuid "ca17effb-c0d2-4d09-a777-d6dc773ac3e2")
+		(uuid "7ee7bbb8-1b88-4aed-b75e-af20b87f16ff")
 	)
-	(hierarchical_label "V_EMG_INA"
+	(hierarchical_label "V_DD{slash}2"
 		(shape input)
-		(at 95.25 64.77 180)
+		(at 142.24 85.09 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "86988549-a7fc-462e-a02e-5ae8b0c7d013")
+	)
+	(hierarchical_label "V_CM"
+		(shape input)
+		(at 62.23 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -771,297 +729,32 @@
 			)
 			(justify right)
 		)
-		(uuid "cbaba830-8e2b-4de1-bbad-cf23673b0311")
+		(uuid "aa22f9e7-a667-43ed-b3ef-cb0b50ddbb7f")
 	)
-	(symbol
-		(lib_id "Device:C")
-		(at 128.27 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+	(hierarchical_label "V_DD"
+		(shape input)
+		(at 134.62 132.08 270)
 		(fields_autoplaced yes)
-		(uuid "6244a78a-3ddf-41e9-9636-dd9e45702417")
-		(property "Reference" "C2"
-			(at 128.27 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right)
 		)
-		(property "Value" "22nF"
-			(at 128.27 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 132.08 63.8048 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 128.27 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 128.27 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a4d4610-c9b3-42e1-b85e-3f3005ca404b")
-		)
-		(pin "2"
-			(uuid "69b72b11-2d45-4813-ba79-db55b1b4df4e")
-		)
-		(instances
-			(project "EMG_amplifier"
-				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/d4e218fa-378d-4687-9a1c-375f73f5fef2"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 115.57 85.09 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b2317bc-5383-4db8-afd9-f682264e2ae7")
-		(property "Reference" "R2"
-			(at 118.11 83.8199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27kOhm"
-			(at 118.11 86.3599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 113.792 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 115.57 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 115.57 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "abd1f050-4df6-4473-83f0-145b3675ff45")
-		)
-		(pin "2"
-			(uuid "3a1a20d4-7850-49ff-9da7-2a6e44540538")
-		)
-		(instances
-			(project "EMG_amplifier"
-				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/d4e218fa-378d-4687-9a1c-375f73f5fef2"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 102.87 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c532b99-1796-40c5-ad63-c5794e010e71")
-		(property "Reference" "C1"
-			(at 106.68 96.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10nF"
-			(at 106.68 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
-			(at 103.8352 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 102.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 102.87 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "52217528-2359-40ae-a5cd-5d9cf0c2e433")
-		)
-		(pin "2"
-			(uuid "4708d999-e1a3-4df6-8525-3e2d0e6ee1ae")
-		)
-		(instances
-			(project "EMG_amplifier"
-				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/d4e218fa-378d-4687-9a1c-375f73f5fef2"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 104.14 64.77 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "978d9381-7f41-4fa9-a697-52331945839f")
-		(property "Reference" "R1"
-			(at 104.14 59.69 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "27kOhm"
-			(at 107.95 61.976 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
-			(at 104.14 66.548 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 104.14 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 104.14 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c8431c3b-0436-486f-807f-1f4e5eec76b0")
-		)
-		(pin "1"
-			(uuid "bf245e38-8b36-42c5-b13d-e34d3d1aabd9")
-		)
-		(instances
-			(project "EMG_amplifier"
-				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/d4e218fa-378d-4687-9a1c-375f73f5fef2"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "f9ae5d23-5641-40ad-9042-878902bc7f05")
 	)
 	(symbol
 		(lib_id "LPV821DBVR:LPV821DBVR")
-		(at 148.59 93.98 0)
+		(at 92.71 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ed9b54b4-5304-411e-badf-7ad21806833d")
-		(property "Reference" "U1"
-			(at 148.59 78.74 0)
+		(uuid "201a683b-1b78-4a4f-ad7f-78976f09158c")
+		(property "Reference" "U5"
+			(at 92.71 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1069,15 +762,15 @@
 			)
 		)
 		(property "Value" "LPV821DBVR"
-			(at 148.59 81.28 0)
+			(at 92.71 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Components:SOT95P280X145-5N"
-			(at 148.59 93.98 0)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 92.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,7 +780,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 93.98 0)
+			(at 92.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1097,7 +790,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 93.98 0)
+			(at 92.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,7 +799,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 148.59 93.98 0)
+			(at 92.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1116,7 +809,7 @@
 			)
 		)
 		(property "Description_1" "\\n650nA, Precision Zero-Drift Nanopower Amplifier\\n"
-			(at 148.59 93.98 0)
+			(at 92.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1126,7 +819,7 @@
 			)
 		)
 		(property "Package" "SOT-23-5 Texas Instruments"
-			(at 148.59 93.98 0)
+			(at 92.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1136,7 +829,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 148.59 93.98 0)
+			(at 92.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1146,7 +839,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LPV821DBVR/Texas+Instruments/view-part/?ref=snap"
-			(at 148.59 93.98 0)
+			(at 92.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1156,7 +849,7 @@
 			)
 		)
 		(property "MP" "LPV821DBVR"
-			(at 148.59 93.98 0)
+			(at 92.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1166,7 +859,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2773057&manufacturer=Texas Instruments&part_name=LPV821DBVR&search_term=None"
-			(at 148.59 93.98 0)
+			(at 92.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1176,7 +869,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 148.59 93.98 0)
+			(at 92.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1186,7 +879,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/LPV821DBVR/Texas+Instruments/view-part/?ref=eda"
-			(at 148.59 93.98 0)
+			(at 92.71 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,25 +888,330 @@
 				(hide yes)
 			)
 		)
-		(pin "4"
-			(uuid "6b314b77-ffe8-4887-8c62-3a997b171904")
+		(pin "5"
+			(uuid "db3caa44-dba9-412d-93cd-ba91a55636ed")
 		)
-		(pin "3"
-			(uuid "e419d4a0-409b-419c-88ae-5c07cd91469d")
+		(pin "4"
+			(uuid "12a98232-1cf0-4814-8bdb-42796dbefd73")
 		)
 		(pin "1"
-			(uuid "116369d4-2ea3-4ed6-b5bb-65e1cd934d29")
-		)
-		(pin "5"
-			(uuid "6a845f19-754e-4abb-b547-6e538feb57f4")
+			(uuid "af782326-dd6c-453b-a8ff-ca80c8be5250")
 		)
 		(pin "2"
-			(uuid "8db74e59-d7f8-452e-acbf-e2dee3c33e63")
+			(uuid "cbff5398-8aa4-4d93-9a1f-70a290163222")
+		)
+		(pin "3"
+			(uuid "8c7b1ff8-5712-49e7-9c38-c8c23b358731")
+		)
+		(instances
+			(project ""
+				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/1a2f880d-7bac-494f-890a-9bc83399590a"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 128.27 91.44 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "775b613e-fd46-4031-9829-9d49da4f2f0e")
+		(property "Reference" "R15"
+			(at 128.27 85.09 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12kR"
+			(at 128.27 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 93.218 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f81e617f-9092-450f-93b9-6f48b703d5b7")
+		)
+		(pin "2"
+			(uuid "31057da1-8f7d-480c-9f2a-4a4afee1ec87")
+		)
+		(instances
+			(project ""
+				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/1a2f880d-7bac-494f-890a-9bc83399590a"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 163.83 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6f09429-b4bd-4549-a010-a66931fa3097")
+		(property "Reference" "R16"
+			(at 163.83 66.04 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12kR"
+			(at 163.83 68.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 74.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 163.83 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd2b4351-1808-45d6-b696-c6d867193e79")
+		)
+		(pin "2"
+			(uuid "ff86418b-f284-4a47-948a-36cce40ad9f6")
 		)
 		(instances
 			(project "EMG_amplifier"
-				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/d4e218fa-378d-4687-9a1c-375f73f5fef2"
-					(reference "U1")
+				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/1a2f880d-7bac-494f-890a-9bc83399590a"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LPV821DBVR:LPV821DBVR")
+		(at 165.1 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "de405e28-e67b-425c-b734-15ba04074263")
+		(property "Reference" "U6"
+			(at 165.1 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LPV821DBVR"
+			(at 165.1 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "SOT95P280X145-5N"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\\n650nA, Precision Zero-Drift Nanopower Amplifier\\n"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "SOT-23-5 Texas Instruments"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/LPV821DBVR/Texas+Instruments/view-part/?ref=snap"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "LPV821DBVR"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=2773057&manufacturer=Texas Instruments&part_name=LPV821DBVR&search_term=None"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/LPV821DBVR/Texas+Instruments/view-part/?ref=eda"
+			(at 165.1 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "29fa5174-8de0-45aa-b7d9-1d9548aa849c")
+		)
+		(pin "4"
+			(uuid "bbd1f92d-0bc9-42b9-91ca-282d00bcf70b")
+		)
+		(pin "1"
+			(uuid "d2871d6b-9b1c-48d5-950c-67a946bd34b0")
+		)
+		(pin "2"
+			(uuid "97e659e1-6c75-4f01-a41e-03273d3fc511")
+		)
+		(pin "3"
+			(uuid "c60d7351-caa8-4e32-a375-fdaf5a87cf31")
+		)
+		(instances
+			(project "EMG_amplifier"
+				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/1a2f880d-7bac-494f-890a-9bc83399590a"
+					(reference "U6")
 					(unit 1)
 				)
 			)

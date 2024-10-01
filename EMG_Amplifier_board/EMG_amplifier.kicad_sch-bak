@@ -125,136 +125,22 @@
 				)
 			)
 		)
-		(symbol "power:GND"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "GND_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "GND_1_1"
-				(pin power_in line
-					(at 0 0 270)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 	)
 	(junction
-		(at 191.77 46.99)
+		(at 191.77 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "57047c89-bd50-45ed-a740-9e4d488740cd")
 	)
 	(junction
-		(at 157.48 137.16)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "932d4989-c818-4b2d-90cf-87147e0318ea")
-	)
-	(junction
-		(at 114.3 46.99)
+		(at 114.3 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a113caa4-e822-42ee-846f-c3a7556c46ab")
 	)
-	(junction
-		(at 168.91 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b304a1fc-c713-4ced-bfbb-1a0d61a5b99f")
-	)
-	(junction
-		(at 157.48 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca8b4d3f-510b-470d-9dcf-97446bb18035")
-	)
 	(wire
 		(pts
-			(xy 191.77 46.99) (xy 191.77 76.2)
+			(xy 191.77 33.02) (xy 191.77 62.23)
 		)
 		(stroke
 			(width 0)
@@ -264,7 +150,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 46.99) (xy 191.77 46.99)
+			(xy 114.3 33.02) (xy 191.77 33.02)
 		)
 		(stroke
 			(width 0)
@@ -274,7 +160,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 62.23) (xy 243.84 62.23)
+			(xy 227.33 48.26) (xy 243.84 48.26)
 		)
 		(stroke
 			(width 0)
@@ -284,7 +170,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 46.99) (xy 114.3 46.99)
+			(xy 101.6 33.02) (xy 114.3 33.02)
 		)
 		(stroke
 			(width 0)
@@ -294,7 +180,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 78.74) (xy 102.87 78.74)
+			(xy 86.36 64.77) (xy 102.87 64.77)
 		)
 		(stroke
 			(width 0)
@@ -304,7 +190,7 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 63.5) (xy 102.87 63.5)
+			(xy 86.36 49.53) (xy 102.87 49.53)
 		)
 		(stroke
 			(width 0)
@@ -314,27 +200,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 121.92) (xy 168.91 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "15a1be37-f186-4036-876b-c388cf335d0e")
-	)
-	(wire
-		(pts
-			(xy 212.09 121.92) (xy 212.09 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c25ee63-63f6-492d-88a3-46c31f8216be")
-	)
-	(wire
-		(pts
-			(xy 140.97 118.11) (xy 140.97 71.12)
+			(xy 140.97 104.14) (xy 140.97 57.15)
 		)
 		(stroke
 			(width 0)
@@ -344,27 +210,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 121.92) (xy 127 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39e7ec86-7c72-4b25-a44f-e2e8c8448f97")
-	)
-	(wire
-		(pts
-			(xy 68.58 97.79) (xy 68.58 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ff98891-e741-4966-a6ca-6f438965cdb7")
-	)
-	(wire
-		(pts
-			(xy 130.81 63.5) (xy 151.13 63.5)
+			(xy 130.81 49.53) (xy 151.13 49.53)
 		)
 		(stroke
 			(width 0)
@@ -374,17 +220,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 121.92) (xy 212.09 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71f26165-a705-477e-8ef2-03e5442e66cf")
-	)
-	(wire
-		(pts
-			(xy 101.6 35.56) (xy 101.6 46.99)
+			(xy 101.6 21.59) (xy 101.6 33.02)
 		)
 		(stroke
 			(width 0)
@@ -394,7 +230,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 62.23) (xy 200.66 62.23)
+			(xy 184.15 48.26) (xy 200.66 48.26)
 		)
 		(stroke
 			(width 0)
@@ -404,37 +240,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 137.16) (xy 63.5 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ac98595-179a-4635-b58d-09153683e7ba")
-	)
-	(wire
-		(pts
-			(xy 168.91 121.92) (xy 168.91 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8adc7ed1-82f6-49ef-9f43-5973a8f8852f")
-	)
-	(wire
-		(pts
-			(xy 127 121.92) (xy 127 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9678d152-009c-4ef9-a726-05c49d96c5fb")
-	)
-	(wire
-		(pts
-			(xy 233.68 46.99) (xy 233.68 71.12)
+			(xy 233.68 33.02) (xy 233.68 57.15)
 		)
 		(stroke
 			(width 0)
@@ -444,17 +250,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 137.16) (xy 157.48 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a35f8f75-07a5-46b1-b951-a6bfab07154b")
-	)
-	(wire
-		(pts
-			(xy 191.77 76.2) (xy 184.15 76.2)
+			(xy 191.77 62.23) (xy 184.15 62.23)
 		)
 		(stroke
 			(width 0)
@@ -464,17 +260,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 143.51) (xy 157.48 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9efd0ca-6277-42a9-a5a0-5536ba6cef4c")
-	)
-	(wire
-		(pts
-			(xy 73.66 118.11) (xy 88.9 118.11)
+			(xy 73.66 104.14) (xy 88.9 104.14)
 		)
 		(stroke
 			(width 0)
@@ -484,7 +270,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 71.12) (xy 227.33 71.12)
+			(xy 233.68 57.15) (xy 227.33 57.15)
 		)
 		(stroke
 			(width 0)
@@ -494,7 +280,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 81.28) (xy 151.13 81.28)
+			(xy 130.81 67.31) (xy 151.13 67.31)
 		)
 		(stroke
 			(width 0)
@@ -504,7 +290,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 118.11) (xy 140.97 118.11)
+			(xy 114.3 104.14) (xy 140.97 104.14)
 		)
 		(stroke
 			(width 0)
@@ -514,7 +300,7 @@
 	)
 	(wire
 		(pts
-			(xy 191.77 46.99) (xy 233.68 46.99)
+			(xy 191.77 33.02) (xy 233.68 33.02)
 		)
 		(stroke
 			(width 0)
@@ -524,17 +310,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 97.79) (xy 68.58 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2e00430-0705-403b-b0ee-16ccbd17d8ca")
-	)
-	(wire
-		(pts
-			(xy 114.3 46.99) (xy 114.3 57.15)
+			(xy 114.3 33.02) (xy 114.3 43.18)
 		)
 		(stroke
 			(width 0)
@@ -544,7 +320,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 71.12) (xy 151.13 71.12)
+			(xy 140.97 57.15) (xy 151.13 57.15)
 		)
 		(stroke
 			(width 0)
@@ -552,19 +328,9 @@
 		)
 		(uuid "f47ddce0-c9ed-4bfd-bc3d-faf10571b377")
 	)
-	(wire
-		(pts
-			(xy 157.48 137.16) (xy 63.5 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb5ee2f3-0734-414e-a989-b0909ce1c83d")
-	)
 	(symbol
 		(lib_id "power:+1V8")
-		(at 101.6 35.56 0)
+		(at 101.6 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -573,7 +339,7 @@
 		(fields_autoplaced yes)
 		(uuid "38f207ce-ced8-4eda-909f-a939c01c76aa")
 		(property "Reference" "#PWR03"
-			(at 101.6 39.37 0)
+			(at 101.6 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -582,7 +348,7 @@
 			)
 		)
 		(property "Value" "+1V8"
-			(at 101.6 30.48 0)
+			(at 101.6 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -590,7 +356,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 35.56 0)
+			(at 101.6 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -599,7 +365,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 35.56 0)
+			(at 101.6 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -608,7 +374,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+1V8\""
-			(at 101.6 35.56 0)
+			(at 101.6 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -628,75 +394,9 @@
 			)
 		)
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 157.48 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3c2e04d8-2ad5-4ca6-9968-948405ae336e")
-		(property "Reference" "#PWR01"
-			(at 157.48 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 157.48 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "476b081d-aec4-4b71-ba0a-86c94a0578e5")
-		)
-		(instances
-			(project ""
-				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
 	(sheet
-		(at 53.34 115.57)
-		(size 20.32 8.89)
+		(at 53.34 101.6)
+		(size 20.32 5.08)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -707,7 +407,7 @@
 		)
 		(uuid "116d6144-bb2d-4875-b0ee-35e8a6acfcf1")
 		(property "Sheetname" "output_protection"
-			(at 53.34 114.8584 0)
+			(at 53.34 100.8884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -716,7 +416,7 @@
 			)
 		)
 		(property "Sheetfile" "output_protection.kicad_sch"
-			(at 53.34 125.0446 0)
+			(at 53.34 107.2646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -725,7 +425,7 @@
 			)
 		)
 		(pin "V_PR" input
-			(at 73.66 118.11 0)
+			(at 73.66 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -735,7 +435,7 @@
 			(uuid "1c354f48-e7cb-4dd6-b496-9f6ec23596ba")
 		)
 		(pin "V_ER" input
-			(at 53.34 118.11 180)
+			(at 53.34 104.14 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -743,16 +443,6 @@
 				(justify left)
 			)
 			(uuid "d23cd83b-3c73-4588-a94c-6b90a413b176")
-		)
-		(pin "GND" input
-			(at 63.5 124.46 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "339ae3db-8f08-4cd8-88bb-1c3c8817428e")
 		)
 		(instances
 			(project "EMG_amplifier"
@@ -763,7 +453,7 @@
 		)
 	)
 	(sheet
-		(at 88.9 110.49)
+		(at 88.9 96.52)
 		(size 25.4 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -775,7 +465,7 @@
 		)
 		(uuid "1a2f880d-7bac-494f-890a-9bc83399590a")
 		(property "Sheetname" "DRL"
-			(at 88.9 109.7784 0)
+			(at 88.9 95.8084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -784,7 +474,7 @@
 			)
 		)
 		(property "Sheetfile" "DRL.kicad_sch"
-			(at 88.9 126.3146 0)
+			(at 88.9 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -793,7 +483,7 @@
 			)
 		)
 		(pin "V_DD{slash}2" input
-			(at 101.6 110.49 90)
+			(at 101.6 96.52 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -803,7 +493,7 @@
 			(uuid "0df41e87-2714-42c0-b027-98c41c1c7504")
 		)
 		(pin "V_CM" input
-			(at 114.3 118.11 0)
+			(at 114.3 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -813,7 +503,7 @@
 			(uuid "80942d43-cbab-4b56-892d-b43067235faa")
 		)
 		(pin "V_PR" input
-			(at 88.9 118.11 180)
+			(at 88.9 104.14 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -831,7 +521,7 @@
 		)
 	)
 	(sheet
-		(at 151.13 57.15)
+		(at 151.13 43.18)
 		(size 33.02 48.26)
 		(fields_autoplaced yes)
 		(stroke
@@ -843,7 +533,7 @@
 		)
 		(uuid "303f9ad4-7b95-498e-980d-614d18323dab")
 		(property "Sheetname" "first_amp_stage"
-			(at 151.13 56.4384 0)
+			(at 151.13 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -852,7 +542,7 @@
 			)
 		)
 		(property "Sheetfile" "first_amp_stage.kicad_sch"
-			(at 151.13 105.9946 0)
+			(at 151.13 92.0246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -861,7 +551,7 @@
 			)
 		)
 		(pin "V_CM" input
-			(at 151.13 71.12 180)
+			(at 151.13 57.15 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -871,7 +561,7 @@
 			(uuid "f7e52b53-aef9-46e0-9678-ba4df734952d")
 		)
 		(pin "V_EMG_INA" input
-			(at 184.15 62.23 0)
+			(at 184.15 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -881,7 +571,7 @@
 			(uuid "2148214f-519e-436c-8b30-055532bc0f2a")
 		)
 		(pin "V_F2" input
-			(at 151.13 81.28 180)
+			(at 151.13 67.31 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -891,7 +581,7 @@
 			(uuid "4eb109e4-afdf-41b9-aa04-5b13112a72a8")
 		)
 		(pin "V_F1" input
-			(at 151.13 63.5 180)
+			(at 151.13 49.53 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -901,7 +591,7 @@
 			(uuid "68fa5fd7-58e7-4f03-b7c2-a53e2797f6d1")
 		)
 		(pin "+V_DD" input
-			(at 184.15 76.2 0)
+			(at 184.15 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -911,7 +601,7 @@
 			(uuid "1bf45bf2-0738-4b83-884f-894b9ba1d380")
 		)
 		(pin "V_DD" input
-			(at 184.15 81.28 0)
+			(at 184.15 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -919,16 +609,6 @@
 				(justify right)
 			)
 			(uuid "54069444-fd7b-4086-b679-bf893c47c195")
-		)
-		(pin "GND" input
-			(at 168.91 105.41 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "f31c1211-f1b7-4f94-a0af-2cf94e6ed02b")
 		)
 		(instances
 			(project "EMG_amplifier"
@@ -939,7 +619,7 @@
 		)
 	)
 	(sheet
-		(at 49.53 57.15)
+		(at 49.53 43.18)
 		(size 36.83 26.67)
 		(fields_autoplaced yes)
 		(stroke
@@ -951,7 +631,7 @@
 		)
 		(uuid "a0d0cf72-697c-4b62-8950-8cdf0873053f")
 		(property "Sheetname" "input_protection_and_decoupling"
-			(at 49.53 56.4384 0)
+			(at 49.53 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -960,7 +640,7 @@
 			)
 		)
 		(property "Sheetfile" "input_protection_and_decoupling.kicad_sch"
-			(at 49.53 84.4046 0)
+			(at 49.53 70.4346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -969,7 +649,7 @@
 			)
 		)
 		(pin "V_E1" input
-			(at 49.53 63.5 180)
+			(at 49.53 49.53 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -979,7 +659,7 @@
 			(uuid "0ba7cf05-99c2-4470-88bb-9887dc776893")
 		)
 		(pin "V_P1" input
-			(at 86.36 63.5 0)
+			(at 86.36 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -989,7 +669,7 @@
 			(uuid "71cf9e08-b429-4c96-a895-0d2d84b9a0ae")
 		)
 		(pin "V_P2" input
-			(at 86.36 78.74 0)
+			(at 86.36 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -999,7 +679,7 @@
 			(uuid "d7c6a8dd-5f92-4748-a2c9-de5efd0466e8")
 		)
 		(pin "V_E2" input
-			(at 49.53 78.74 180)
+			(at 49.53 64.77 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1007,16 +687,6 @@
 				(justify left)
 			)
 			(uuid "c593e038-0c27-4e22-a70a-93f89920faa1")
-		)
-		(pin "GND" input
-			(at 68.58 83.82 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "856b6fc9-2fa5-4aec-b811-71df09468103")
 		)
 		(instances
 			(project "EMG_amplifier"
@@ -1027,7 +697,7 @@
 		)
 	)
 	(sheet
-		(at 200.66 57.15)
+		(at 200.66 43.18)
 		(size 26.67 27.94)
 		(fields_autoplaced yes)
 		(stroke
@@ -1039,7 +709,7 @@
 		)
 		(uuid "d4e218fa-378d-4687-9a1c-375f73f5fef2")
 		(property "Sheetname" "LPF_400Hz"
-			(at 200.66 56.4384 0)
+			(at 200.66 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1048,7 +718,7 @@
 			)
 		)
 		(property "Sheetfile" "LPF_400Hz.kicad_sch"
-			(at 200.66 85.6746 0)
+			(at 200.66 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1057,7 +727,7 @@
 			)
 		)
 		(pin "V_EMG_OUT" input
-			(at 227.33 62.23 0)
+			(at 227.33 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1067,7 +737,7 @@
 			(uuid "4e95767d-b8d7-406e-a836-5f06bcd89d83")
 		)
 		(pin "V_EMG_INA" input
-			(at 200.66 62.23 180)
+			(at 200.66 48.26 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1077,7 +747,7 @@
 			(uuid "ba74b926-7c21-4478-8b94-062ceff4505d")
 		)
 		(pin "+V_DD" input
-			(at 227.33 71.12 0)
+			(at 227.33 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1087,7 +757,7 @@
 			(uuid "b0681900-721f-4888-8f68-5e6ae231273c")
 		)
 		(pin "V_DD" input
-			(at 227.33 78.74 0)
+			(at 227.33 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1095,16 +765,6 @@
 				(justify right)
 			)
 			(uuid "c1d0533f-fbda-4c9d-b07e-39e8124c1a67")
-		)
-		(pin "GND" input
-			(at 212.09 85.09 270)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "dbd4dc7c-2a78-4429-a4ce-d3b3379dc461")
 		)
 		(instances
 			(project "EMG_amplifier"
@@ -1115,7 +775,7 @@
 		)
 	)
 	(sheet
-		(at 102.87 57.15)
+		(at 102.87 43.18)
 		(size 27.94 30.48)
 		(fields_autoplaced yes)
 		(stroke
@@ -1127,7 +787,7 @@
 		)
 		(uuid "ed228d26-eb85-4b0e-a1ec-13573da249a4")
 		(property "Sheetname" "DHPF"
-			(at 102.87 56.4384 0)
+			(at 102.87 42.4684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1136,7 +796,7 @@
 			)
 		)
 		(property "Sheetfile" "DHPF.kicad_sch"
-			(at 102.87 88.2146 0)
+			(at 102.87 74.2446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,7 +805,7 @@
 			)
 		)
 		(pin "V_F2" input
-			(at 130.81 81.28 0)
+			(at 130.81 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1155,7 +815,7 @@
 			(uuid "8ff24df4-0228-4a62-b1f2-a2820d9fd60a")
 		)
 		(pin "V_F1" input
-			(at 130.81 63.5 0)
+			(at 130.81 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1165,7 +825,7 @@
 			(uuid "f74e0f52-4578-426e-a679-84ea7bfe1ecb")
 		)
 		(pin "V_P1" input
-			(at 102.87 63.5 180)
+			(at 102.87 49.53 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1175,7 +835,7 @@
 			(uuid "cad78b34-5bf4-4f86-b1e7-4aa20479bf67")
 		)
 		(pin "V_P2" input
-			(at 102.87 78.74 180)
+			(at 102.87 64.77 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1185,7 +845,7 @@
 			(uuid "b9abb0cf-0d11-417c-b662-e6ac2a797ac0")
 		)
 		(pin "+V_DD" input
-			(at 114.3 57.15 90)
+			(at 114.3 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1195,7 +855,7 @@
 			(uuid "5352172c-3d81-4cca-8556-913842e95235")
 		)
 		(pin "V_DD" input
-			(at 120.65 87.63 270)
+			(at 120.65 73.66 270)
 			(effects
 				(font
 					(size 1.27 1.27)
