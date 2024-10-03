@@ -799,7 +799,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 132.08 63.8048 0)
 			(effects
 				(font
@@ -860,7 +860,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "27kOhm"
+		(property "Value" "27kR"
 			(at 118.11 86.3599 0)
 			(effects
 				(font
@@ -939,7 +939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 103.8352 101.6 0)
 			(effects
 				(font
@@ -991,7 +991,7 @@
 		(dnp no)
 		(uuid "978d9381-7f41-4fa9-a697-52331945839f")
 		(property "Reference" "R22"
-			(at 104.14 59.69 90)
+			(at 106.172 59.944 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1000,7 +1000,7 @@
 			)
 		)
 		(property "Value" "27kR"
-			(at 107.95 61.976 90)
+			(at 106.934 61.976 90)
 			(effects
 				(font
 					(size 1.27 1.27)
