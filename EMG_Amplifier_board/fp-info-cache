@@ -1,4 +1,4 @@
-23862376910327390
+23864105201984411
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90670,6 +90670,13 @@ Logo WEEE
 0
 0
 0
+TLV8542DR
+SOIC127P599X175-8N
+
+
+0
+8
+8
 TLV8542DR_footprints
 RUG8_TEX
 

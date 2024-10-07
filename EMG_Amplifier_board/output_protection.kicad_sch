@@ -418,14 +418,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "fea23a9d-347e-4d03-a748-2655c9b26956")
+			(uuid "4225c4cc-3cae-4239-a52f-e80c9d72ea0c")
 		)
 		(pin "2"
-			(uuid "62d68197-fff6-4468-ad9d-526ae98c2dee")
+			(uuid "0fd04081-296d-4647-999a-67f5ca27966a")
 		)
 		(instances
-			(project ""
-				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/116d6144-bb2d-4875-b0ee-35e8a6acfcf1"
+			(project "EMG_amplifier"
+				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/5ea975e8-3227-4877-bc8b-ac5d6b7605f1/f0ef1686-4824-423f-8bc9-279e47f6fa27"
 					(reference "R5")
 					(unit 1)
 				)
@@ -486,14 +486,14 @@
 			)
 		)
 		(pin "2"
-			(uuid "b7dcd397-2d56-460a-8cd4-35e5b945542d")
+			(uuid "99b36a0f-3280-4fdb-8611-4934e313b34f")
 		)
 		(pin "1"
-			(uuid "b746f391-4994-4ba6-abab-1f629bc6daab")
+			(uuid "6ea2e368-32c7-483d-8ed3-1aff7851b746")
 		)
 		(instances
 			(project "EMG_amplifier"
-				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/116d6144-bb2d-4875-b0ee-35e8a6acfcf1"
+				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/5ea975e8-3227-4877-bc8b-ac5d6b7605f1/f0ef1686-4824-423f-8bc9-279e47f6fa27"
 					(reference "D3")
 					(unit 1)
 				)

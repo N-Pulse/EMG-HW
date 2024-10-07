@@ -580,28 +580,40 @@
       "Root"
     ],
     [
-      "d4e218fa-378d-4687-9a1c-375f73f5fef2",
+      "ed3c4e47-5bb3-4707-b5f4-6896a3a88613",
       "LPF_400Hz"
     ],
     [
-      "303f9ad4-7b95-498e-980d-614d18323dab",
+      "ee6da384-2a51-46fd-9ef1-0e50994f466c",
       "first_amp_stage"
     ],
     [
-      "ed228d26-eb85-4b0e-a1ec-13573da249a4",
+      "51c73326-32f2-420f-8877-30851f8c154d",
       "DHPF"
     ],
     [
-      "a0d0cf72-697c-4b62-8950-8cdf0873053f",
+      "3fa269e7-45e7-4a87-b607-eed791004514",
       "input_protection_and_decoupling"
     ],
     [
-      "1a2f880d-7bac-494f-890a-9bc83399590a",
+      "f0ef1686-4824-423f-8bc9-279e47f6fa27",
+      "output_protection"
+    ],
+    [
+      "87e3490f-ae1c-443c-8c09-d2b58f9f3cb7",
       "DRL"
     ],
     [
-      "116d6144-bb2d-4875-b0ee-35e8a6acfcf1",
-      "output_protection"
+      "5ea975e8-3227-4877-bc8b-ac5d6b7605f1",
+      "Electrode_Board"
+    ],
+    [
+      "566a5450-97e0-4bc1-8c47-b0ac1397ab98",
+      "Filtering_Board"
+    ],
+    [
+      "190e8daf-ffdb-4cbc-86a8-05377b040767",
+      "Processing_Board"
     ]
   ],
   "text_variables": {}

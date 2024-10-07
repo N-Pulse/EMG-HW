@@ -518,6 +518,102 @@
 				)
 			)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 171.45 74.93)
@@ -713,18 +809,6 @@
 		)
 		(uuid "f4f9c166-b92c-4235-8a93-4deeef795286")
 	)
-	(hierarchical_label "V_DD"
-		(shape input)
-		(at 179.07 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0ef95b1a-18cc-46e4-86e1-9e45f894837a")
-	)
 	(hierarchical_label "V_EMG_OUT"
 		(shape input)
 		(at 191.77 91.44 0)
@@ -736,18 +820,6 @@
 			(justify left)
 		)
 		(uuid "4fb8b28f-27f4-4392-a7ce-1d63fff51468")
-	)
-	(hierarchical_label "GND"
-		(shape input)
-		(at 102.87 106.68 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "75a39c55-5f3a-4fed-9f42-014a91a355ed")
 	)
 	(hierarchical_label "+V_DD"
 		(shape input)
@@ -774,6 +846,72 @@
 		(uuid "cbaba830-8e2b-4de1-bbad-cf23673b0311")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 102.87 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3a4ffbf0-4c47-4f12-ac83-8cc5449c283d")
+		(property "Reference" "#PWR02"
+			(at 102.87 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a87ecc65-173e-4800-aebb-769bcd0d5ad4")
+		)
+		(instances
+			(project "EMG_amplifier"
+				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/190e8daf-ffdb-4cbc-86a8-05377b040767/ed3c4e47-5bb3-4707-b5f4-6896a3a88613"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 128.27 64.77 90)
 		(unit 1)
@@ -783,7 +921,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6244a78a-3ddf-41e9-9636-dd9e45702417")
-		(property "Reference" "C10"
+		(property "Reference" "C4"
 			(at 128.27 57.15 90)
 			(effects
 				(font
@@ -827,15 +965,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9a4d4610-c9b3-42e1-b85e-3f3005ca404b")
+			(uuid "0ff81503-4952-4261-90b6-004342615d3c")
 		)
 		(pin "2"
-			(uuid "69b72b11-2d45-4813-ba79-db55b1b4df4e")
+			(uuid "401fc591-d87f-45df-afa8-8aad89b5cf3d")
 		)
 		(instances
 			(project "EMG_amplifier"
-				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/d4e218fa-378d-4687-9a1c-375f73f5fef2"
-					(reference "C10")
+				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/190e8daf-ffdb-4cbc-86a8-05377b040767/ed3c4e47-5bb3-4707-b5f4-6896a3a88613"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -851,7 +989,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b2317bc-5383-4db8-afd9-f682264e2ae7")
-		(property "Reference" "R23"
+		(property "Reference" "R11"
 			(at 118.11 83.8199 0)
 			(effects
 				(font
@@ -897,15 +1035,82 @@
 			)
 		)
 		(pin "1"
-			(uuid "abd1f050-4df6-4473-83f0-145b3675ff45")
+			(uuid "aa647664-b409-45b1-b451-a9afe1a5416b")
 		)
 		(pin "2"
-			(uuid "3a1a20d4-7850-49ff-9da7-2a6e44540538")
+			(uuid "1a246175-c70d-4654-97cc-fb33e0707c61")
 		)
 		(instances
 			(project "EMG_amplifier"
-				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/d4e218fa-378d-4687-9a1c-375f73f5fef2"
-					(reference "R23")
+				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/190e8daf-ffdb-4cbc-86a8-05377b040767/ed3c4e47-5bb3-4707-b5f4-6896a3a88613"
+					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 179.07 101.6 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7ff70e08-1c24-4db3-9ce4-28b211420618")
+		(property "Reference" "#PWR04"
+			(at 185.42 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 182.88 101.5999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 179.07 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "55362d58-03a9-41fd-9d44-137c5ccbefd4")
+		)
+		(instances
+			(project "EMG_amplifier"
+				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/190e8daf-ffdb-4cbc-86a8-05377b040767/ed3c4e47-5bb3-4707-b5f4-6896a3a88613"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -921,7 +1126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c532b99-1796-40c5-ad63-c5794e010e71")
-		(property "Reference" "C9"
+		(property "Reference" "C3"
 			(at 106.68 96.5199 0)
 			(effects
 				(font
@@ -967,15 +1172,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "52217528-2359-40ae-a5cd-5d9cf0c2e433")
+			(uuid "e55c0735-8bb5-45b8-ad9c-5ed732989c02")
 		)
 		(pin "2"
-			(uuid "4708d999-e1a3-4df6-8525-3e2d0e6ee1ae")
+			(uuid "6cb12880-54fc-4700-818b-ea55e9ad5b3f")
 		)
 		(instances
 			(project "EMG_amplifier"
-				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/d4e218fa-378d-4687-9a1c-375f73f5fef2"
-					(reference "C9")
+				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/190e8daf-ffdb-4cbc-86a8-05377b040767/ed3c4e47-5bb3-4707-b5f4-6896a3a88613"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -990,7 +1195,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "978d9381-7f41-4fa9-a697-52331945839f")
-		(property "Reference" "R22"
+		(property "Reference" "R10"
 			(at 106.172 59.944 90)
 			(effects
 				(font
@@ -1036,15 +1241,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "c8431c3b-0436-486f-807f-1f4e5eec76b0")
+			(uuid "e824001c-0769-4081-bc34-304f6f9640f4")
 		)
 		(pin "1"
-			(uuid "bf245e38-8b36-42c5-b13d-e34d3d1aabd9")
+			(uuid "ae2f89ba-3414-4e67-9a1c-0a9bc8e35f57")
 		)
 		(instances
 			(project "EMG_amplifier"
-				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/d4e218fa-378d-4687-9a1c-375f73f5fef2"
-					(reference "R22")
+				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/190e8daf-ffdb-4cbc-86a8-05377b040767/ed3c4e47-5bb3-4707-b5f4-6896a3a88613"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -1196,23 +1401,23 @@
 			)
 		)
 		(pin "4"
-			(uuid "6b314b77-ffe8-4887-8c62-3a997b171904")
+			(uuid "adf4015c-719f-4458-bd88-f03788d71dff")
 		)
 		(pin "3"
-			(uuid "e419d4a0-409b-419c-88ae-5c07cd91469d")
+			(uuid "9c6b9337-f628-4315-8f5f-5d0d01fd48fa")
 		)
 		(pin "1"
-			(uuid "116369d4-2ea3-4ed6-b5bb-65e1cd934d29")
+			(uuid "71ca715e-ee8b-4d6d-baa9-4a30c939734b")
 		)
 		(pin "5"
-			(uuid "6a845f19-754e-4abb-b547-6e538feb57f4")
+			(uuid "31082450-2f9d-4eec-9060-5fc55d0daa0f")
 		)
 		(pin "2"
-			(uuid "8db74e59-d7f8-452e-acbf-e2dee3c33e63")
+			(uuid "b376791d-c6f4-4c09-b93e-1250b21c7583")
 		)
 		(instances
 			(project "EMG_amplifier"
-				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/d4e218fa-378d-4687-9a1c-375f73f5fef2"
+				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/190e8daf-ffdb-4cbc-86a8-05377b040767/ed3c4e47-5bb3-4707-b5f4-6896a3a88613"
 					(reference "U1")
 					(unit 1)
 				)
