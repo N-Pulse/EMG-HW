@@ -1,0 +1,11 @@
+Plotted to '/home/rocknd79/EPFL/MA3/EMG/EMG_Amplifier_board/gerbers/EMG_amplifier-F_Cu.gbr'.
+Plotted to '/home/rocknd79/EPFL/MA3/EMG/EMG_Amplifier_board/gerbers/EMG_amplifier-B_Cu.gbr'.
+Plotted to '/home/rocknd79/EPFL/MA3/EMG/EMG_Amplifier_board/gerbers/EMG_amplifier-F_Paste.gbr'.
+Plotted to '/home/rocknd79/EPFL/MA3/EMG/EMG_Amplifier_board/gerbers/EMG_amplifier-B_Paste.gbr'.
+Plotted to '/home/rocknd79/EPFL/MA3/EMG/EMG_Amplifier_board/gerbers/EMG_amplifier-F_Silkscreen.gbr'.
+Plotted to '/home/rocknd79/EPFL/MA3/EMG/EMG_Amplifier_board/gerbers/EMG_amplifier-B_Silkscreen.gbr'.
+Plotted to '/home/rocknd79/EPFL/MA3/EMG/EMG_Amplifier_board/gerbers/EMG_amplifier-F_Mask.gbr'.
+Plotted to '/home/rocknd79/EPFL/MA3/EMG/EMG_Amplifier_board/gerbers/EMG_amplifier-B_Mask.gbr'.
+Plotted to '/home/rocknd79/EPFL/MA3/EMG/EMG_Amplifier_board/gerbers/EMG_amplifier-Edge_Cuts.gbr'.
+Created Gerber job file '/home/rocknd79/EPFL/MA3/EMG/EMG_Amplifier_board/gerbers/EMG_amplifier-job.gbrjob'.
+Info: Done.
