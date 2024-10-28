@@ -1268,7 +1268,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10MR"
+		(property "Value" "10M"
 			(at 142.24 99.0599 0)
 			(effects
 				(font
@@ -1471,7 +1471,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10MR"
+		(property "Value" "10M"
 			(at 123.19 99.0599 0)
 			(effects
 				(font
@@ -1743,7 +1743,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10MR"
+		(property "Value" "10M"
 			(at 123.19 72.3899 0)
 			(effects
 				(font
@@ -1991,7 +1991,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10MR"
+		(property "Value" "10M"
 			(at 142.24 72.3899 0)
 			(effects
 				(font
