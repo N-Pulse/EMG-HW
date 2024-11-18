@@ -376,6 +376,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 116.84) (xy 123.19 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4177a5bb-c7fa-49df-af29-dafc3ed47488")
+	)
+	(wire
+		(pts
 			(xy 123.19 95.25) (xy 123.19 102.87)
 		)
 		(stroke
@@ -383,16 +393,6 @@
 			(type default)
 		)
 		(uuid "57c03599-1d01-4ceb-a3b6-1594f95b2b03")
-	)
-	(wire
-		(pts
-			(xy 123.19 116.84) (xy 123.19 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7aa97037-00dc-48d1-a418-606e150b0770")
 	)
 	(wire
 		(pts
@@ -584,7 +584,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 123.19 120.65 0)
+		(at 123.19 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -593,7 +593,7 @@
 		(fields_autoplaced yes)
 		(uuid "c756d841-5cb4-4da7-9daf-79af705ad43e")
 		(property "Reference" "#PWR01"
-			(at 123.19 127 0)
+			(at 123.19 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -602,7 +602,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 123.1901 124.46 90)
+			(at 123.1901 125.73 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -611,7 +611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 120.65 0)
+			(at 123.19 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -620,7 +620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 120.65 0)
+			(at 123.19 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -629,7 +629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 123.19 120.65 0)
+			(at 123.19 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
