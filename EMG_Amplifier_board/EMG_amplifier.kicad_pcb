@@ -124,6 +124,7 @@
 	(net 42 "unconnected-(J4-Pin_6-Pad6)")
 	(net 43 "unconnected-(J7-Pin_1-Pad1)")
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x03_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "0727ad5c-a21e-43dc-9409-1faaf92269c5")
 		(at 59.528 27.2946 -90)
@@ -672,6 +673,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "188819d8-50a6-4f99-b515-683a6b35d208")
 		(at 19.4874 34.7648 -90)
@@ -3392,6 +3394,7 @@
 		)
 	)
 	(footprint "Library:Electrode_Shape"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "433cb717-72ea-4a40-b26b-a4aa049e8cb5")
 		(at 26.5316 16.0672)
@@ -8391,6 +8394,7 @@
 		)
 	)
 	(footprint "Library:Electrode_Shape"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "9e4f7b63-c773-4319-8b8e-b5b3ecd98b1a")
 		(at 40.0004 16.0672)
@@ -11113,6 +11117,7 @@
 		)
 	)
 	(footprint "Library:Electrode_Shape"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "d8edbeef-1c04-44bc-b0f4-48f40844206a")
 		(at 53.4692 16.0672)
@@ -11199,6 +11204,7 @@
 		)
 	)
 	(footprint "Connector_PinSocket_2.54mm:PinSocket_2x02_P2.54mm_Vertical"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "ddedeeb6-900f-42cc-b331-eecbec06215c")
 		(at 14.4988 17.255 180)
@@ -12585,6 +12591,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "3230aca4-c368-4c54-b141-7bf69b021ddf")
 		(at 59.528 37.3094 90)
@@ -12924,6 +12931,7 @@
 		)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
+		(locked yes)
 		(layer "B.Cu")
 		(uuid "cf1f3581-2527-4dd7-87fe-044c564cb93d")
 		(at 14.4988 27.2946)
@@ -14574,20 +14582,28 @@
 		(uuid "a263749a-bd02-4d7a-a1e6-305b60f0b4e6")
 	)
 	(segment
-		(start 21.75 16.85)
-		(end 20.0414 16.85)
+		(start 20.55 17.25)
+		(end 19.6586 17.25)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 7)
-		(uuid "15518ddf-6c20-47ff-bafb-4c727ccc34df")
+		(uuid "2b06527d-5541-455d-91f1-f91e865c2b56")
 	)
 	(segment
-		(start 20.0414 16.85)
+		(start 21.75 16.85)
+		(end 20.95 16.85)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "41986397-ce3b-413f-8bbb-b569b0e8a9d0")
+	)
+	(segment
+		(start 19.6586 17.25)
 		(end 19.65 17.2414)
 		(width 0.2)
 		(layer "F.Cu")
 		(net 7)
-		(uuid "52b2575a-d9f3-4084-9ed4-e27f609bfcf0")
+		(uuid "7f9655e7-9f9b-44af-a8a8-416c127efc6d")
 	)
 	(segment
 		(start 21.74 18.05)
@@ -14596,6 +14612,14 @@
 		(layer "F.Cu")
 		(net 7)
 		(uuid "a3a1c53c-e889-4bf9-bbeb-8c3aa9a41ce4")
+	)
+	(segment
+		(start 20.95 16.85)
+		(end 20.55 17.25)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "a72b690e-879c-4e6e-b619-fb301a4b6a2c")
 	)
 	(segment
 		(start 21.74 16.86)
