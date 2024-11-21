@@ -5,6 +5,141 @@
 	(uuid "6539bea7-099f-4145-81e5-291d3866601c")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:C_Small"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "TPD2E001:TPD2E001DRLR"
 			(pin_names
 				(offset 0.254)
@@ -345,6 +480,16 @@
 		(color 0 0 0 0)
 		(uuid "bb8a5c30-abdf-4248-8a5f-6b22e3bbe31f")
 	)
+	(junction
+		(at 110.49 152.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0ce32fe-4ac3-4a5f-be8d-7cbe34149cb7")
+	)
+	(no_connect
+		(at 101.6 142.24)
+		(uuid "0aae6a98-a9c5-4986-914f-5ef0e47eaad1")
+	)
 	(wire
 		(pts
 			(xy 163.83 50.8) (xy 163.83 63.5)
@@ -397,6 +542,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 154.94) (xy 110.49 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42cb0e77-0497-4632-b692-abbb24c92790")
+	)
+	(wire
+		(pts
 			(xy 255.27 50.8) (xy 255.27 118.11)
 		)
 		(stroke
@@ -404,6 +559,16 @@
 			(type default)
 		)
 		(uuid "47371d37-28cc-413e-a6c7-661b3c3bab7e")
+	)
+	(wire
+		(pts
+			(xy 110.49 152.4) (xy 99.06 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4793ebe3-6f23-4bbc-8371-6ab9a3872431")
 	)
 	(wire
 		(pts
@@ -577,6 +742,16 @@
 	)
 	(wire
 		(pts
+			(xy 110.49 160.02) (xy 110.49 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6200b04-de24-4aa2-a5e4-4c4f5ad311a5")
+	)
+	(wire
+		(pts
 			(xy 163.83 36.83) (xy 163.83 45.72)
 		)
 		(stroke
@@ -587,7 +762,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 152.4) (xy 99.06 152.4)
+			(xy 121.92 152.4) (xy 110.49 152.4)
 		)
 		(stroke
 			(width 0)
@@ -964,6 +1139,140 @@
 			(project "EMG_amplifier"
 				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/566a5450-97e0-4bc1-8c47-b0ac1397ab98"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 110.49 157.48 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d530f3e-0db4-4ed6-8cae-3674196a266e")
+		(property "Reference" "C12"
+			(at 104.902 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 104.902 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 110.49 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 110.49 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 110.49 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b0e4af0e-4560-4af8-afa0-ca7532e2046b")
+		)
+		(pin "1"
+			(uuid "58394e4a-d831-47f0-9636-547207f01bf1")
+		)
+		(instances
+			(project "EMG_amplifier"
+				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/566a5450-97e0-4bc1-8c47-b0ac1397ab98"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 110.49 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "def7b4a3-2999-4d3c-a1d0-82427508c938")
+		(property "Reference" "#PWR020"
+			(at 110.49 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 110.4899 165.1 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.49 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 110.49 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 110.49 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58c7153e-6706-4394-b5b7-ee29a5daf9d9")
+		)
+		(instances
+			(project "EMG_amplifier"
+				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/566a5450-97e0-4bc1-8c47-b0ac1397ab98"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
