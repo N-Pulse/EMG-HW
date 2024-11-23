@@ -1200,7 +1200,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "LPV821DBVR:SOT95P280X145-5N"
 			(at 180.34 93.98 0)
 			(effects
 				(font
@@ -1987,7 +1987,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-5N"
+		(property "Footprint" "LPV821DBVR:SOT95P280X145-5N"
 			(at 107.95 91.44 0)
 			(effects
 				(font
