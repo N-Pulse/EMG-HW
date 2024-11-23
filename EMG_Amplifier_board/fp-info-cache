@@ -1,4 +1,4 @@
-24189310223046471
+24201431693469469
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -13,6 +13,27 @@ audio belton reverb
 0
 7
 7
+BLM15AX102SN1D
+IND_BLM15_1P05X0P55X0P55_MUR
+
+BLM15AX102SN1D 
+0
+2
+2
+BLM15AX102SN1D
+IND_BLM15_1P05X0P55X0P55_MUR-L
+
+BLM15AX102SN1D 
+0
+2
+2
+BLM15AX102SN1D
+IND_BLM15_1P05X0P55X0P55_MUR-M
+
+BLM15AX102SN1D 
+0
+2
+2
 Battery
 BatteryClip_Keystone_54_D16-19mm
 Battery clip for batteries with a diameter between 16-19 mm: https://www.keyelco.com/product.cfm/product_id/826
@@ -56783,6 +56804,27 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESD5Z2.5T1G
+SOD-523_0P9X1P3_ONS
+
+ESD5Z2.5T1G 
+0
+2
+2
+ESD5Z2.5T1G
+SOD-523_0P9X1P3_ONS-L
+
+ESD5Z2.5T1G 
+0
+2
+2
+ESD5Z2.5T1G
+SOD-523_0P9X1P3_ONS-M
+
+ESD5Z2.5T1G 
+0
+2
+2
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -65239,6 +65281,13 @@ Yellow 5381 Series LED
 0
 2
 2
+LPV821DBVR
+SOT95P280X145-5N
+
+
+0
+5
+5
 Library
 Electrode_Shape
 
