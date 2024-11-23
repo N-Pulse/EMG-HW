@@ -1703,7 +1703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23c908ae-640d-474f-b5c0-32d3af0ed882")
-		(property "Reference" "R21"
+		(property "Reference" "R33"
 			(at 157.48 116.84 90)
 			(effects
 				(font
@@ -1755,7 +1755,7 @@
 		(instances
 			(project ""
 				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/190e8daf-ffdb-4cbc-86a8-05377b040767/ee6da384-2a51-46fd-9ef1-0e50994f466c"
-					(reference "R21")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -1770,7 +1770,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "26ab6163-fef9-463f-a3f1-fe7fae066a96")
-		(property "Reference" "R13"
+		(property "Reference" "R14"
 			(at 99.06 61.468 90)
 			(effects
 				(font
@@ -1822,7 +1822,7 @@
 		(instances
 			(project "EMG_amplifier"
 				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/190e8daf-ffdb-4cbc-86a8-05377b040767/ee6da384-2a51-46fd-9ef1-0e50994f466c"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1838,8 +1838,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "331d991f-ce2c-440b-862f-063f62f35d40")
-		(property "Reference" "C10"
-			(at 111.7537 121.92 90)
+		(property "Reference" "C24"
+			(at 111.7536 109.22 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1847,7 +1847,7 @@
 			)
 		)
 		(property "Value" "0.1uF"
-			(at 111.7537 119.38 90)
+			(at 111.7536 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,7 +1890,7 @@
 		(instances
 			(project "EMG_amplifier"
 				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/190e8daf-ffdb-4cbc-86a8-05377b040767/ee6da384-2a51-46fd-9ef1-0e50994f466c"
-					(reference "C10")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -2142,7 +2142,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6e42e029-5006-4009-ad83-008b139035f9")
-		(property "Reference" "R22"
+		(property "Reference" "R34"
 			(at 175.26 116.84 90)
 			(effects
 				(font
@@ -2194,7 +2194,7 @@
 		(instances
 			(project ""
 				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/190e8daf-ffdb-4cbc-86a8-05377b040767/ee6da384-2a51-46fd-9ef1-0e50994f466c"
-					(reference "R22")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -2210,7 +2210,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "707887b4-80f2-4e4e-aae9-e646b5d84f24")
-		(property "Reference" "R20"
+		(property "Reference" "R10"
 			(at 201.93 68.5799 0)
 			(effects
 				(font
@@ -2264,7 +2264,7 @@
 		(instances
 			(project "EMG_amplifier"
 				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/190e8daf-ffdb-4cbc-86a8-05377b040767/ee6da384-2a51-46fd-9ef1-0e50994f466c"
-					(reference "R20")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2280,7 +2280,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9a8111b5-3b36-40fa-b397-93b524ef72c8")
-		(property "Reference" "C6"
+		(property "Reference" "C4"
 			(at 190.5 87.6299 0)
 			(effects
 				(font
@@ -2334,7 +2334,7 @@
 		(instances
 			(project "EMG_amplifier"
 				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/190e8daf-ffdb-4cbc-86a8-05377b040767/ee6da384-2a51-46fd-9ef1-0e50994f466c"
-					(reference "C6")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -2482,7 +2482,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a060ff50-0683-49c4-9012-2620b5287dfd")
-		(property "Reference" "R19"
+		(property "Reference" "R11"
 			(at 189.23 68.5799 0)
 			(effects
 				(font
@@ -2536,7 +2536,7 @@
 		(instances
 			(project "EMG_amplifier"
 				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/190e8daf-ffdb-4cbc-86a8-05377b040767/ee6da384-2a51-46fd-9ef1-0e50994f466c"
-					(reference "R19")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -2552,7 +2552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b12f055c-1575-458f-b453-6e939fe7ee75")
-		(property "Reference" "C5"
+		(property "Reference" "C3"
 			(at 170.18 68.5799 0)
 			(effects
 				(font
@@ -2606,7 +2606,7 @@
 		(instances
 			(project "EMG_amplifier"
 				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/190e8daf-ffdb-4cbc-86a8-05377b040767/ee6da384-2a51-46fd-9ef1-0e50994f466c"
-					(reference "C5")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -2621,7 +2621,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fc7c34b3-4262-4219-a12e-9e9f7c40d649")
-		(property "Reference" "R14"
+		(property "Reference" "R12"
 			(at 176.53 75.184 90)
 			(effects
 				(font
@@ -2673,7 +2673,7 @@
 		(instances
 			(project "EMG_amplifier"
 				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/190e8daf-ffdb-4cbc-86a8-05377b040767/ee6da384-2a51-46fd-9ef1-0e50994f466c"
-					(reference "R14")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -2688,7 +2688,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fda17d64-d918-4f57-aa7a-feaedf911fbe")
-		(property "Reference" "R12"
+		(property "Reference" "R13"
 			(at 99.314 48.514 90)
 			(effects
 				(font
@@ -2740,7 +2740,7 @@
 		(instances
 			(project "EMG_amplifier"
 				(path "/26861adc-1ddf-4c37-9f8b-8db1c0839771/190e8daf-ffdb-4cbc-86a8-05377b040767/ee6da384-2a51-46fd-9ef1-0e50994f466c"
-					(reference "R12")
+					(reference "R13")
 					(unit 1)
 				)
 			)
