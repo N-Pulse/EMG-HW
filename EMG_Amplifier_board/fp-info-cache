@@ -1,4 +1,4 @@
-24201431693469469
+24206624918988589
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -91601,6 +91601,27 @@ Logo WEEE
 0
 0
 0
+TPD2E001DRLR
+DRL5
+
+TPD2E001DRLR 
+0
+5
+5
+TPD2E001DRLR
+DRL5-L
+
+TPD2E001DRLR 
+0
+5
+5
+TPD2E001DRLR
+DRL5-M
+
+TPD2E001DRLR 
+0
+5
+5
 TerminalBlock
 TerminalBlock_Altech_AK300-2_P5.00mm
 Altech AK300 terminal block, pitch 5.0mm, 45 degree angled, see http://www.mouser.com/ds/2/16/PCBMETRC-24178.pdf
