@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'EFR32BG13P732F512GM48_D'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Silicon Labs", "EFR32BG13P732F512GM48-D" (!) = "", "QFN50P700X700X90-49N-D", "Quad Flat No-Lead", "634-BGP732F512GM48D", "https://www.mouser.co.uk/ProductDetail/Silicon-Labs/EFR32BG13P732F512GM48-D?qs=EBDBlbfErPyfv1N%2F5J4IXA%3D%3D", "SILICON LABS - EFR32BG13P732F512GM48-D - Microcontroller Application Specific, EFR32BG Series, ARM Cortex-M4, 32bit, 512KB, 40MHz, QFN-48", "https://www.silabs.com/documents/public/data-sheets/efr32bg13-datasheet.pdf", "0.9 mm"
+END_PART
+
+END.

@@ -1,0 +1,340 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "7365e901-eed3-41d4-a541-39f9b4f0f3a2")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 157.48 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f135ed0-7e76-42a2-b360-ec8a3bbad7c3")
+	)
+	(wire
+		(pts
+			(xy 157.48 68.58) (xy 157.48 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "09ecc8e9-747e-45d5-9631-a2516b83c1c7")
+	)
+	(wire
+		(pts
+			(xy 199.39 68.58) (xy 199.39 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1782a566-84ab-43fe-ab27-97f168044017")
+	)
+	(wire
+		(pts
+			(xy 86.36 92.71) (xy 116.84 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "276a68d9-ed63-486d-b23d-fa9b13b73e82")
+	)
+	(wire
+		(pts
+			(xy 157.48 49.53) (xy 157.48 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3db2087f-fa7e-48db-afe4-63afd66ab42a")
+	)
+	(wire
+		(pts
+			(xy 157.48 68.58) (xy 199.39 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d8406c5-c5b7-441b-926d-acdf29306f60")
+	)
+	(wire
+		(pts
+			(xy 86.36 110.49) (xy 116.84 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c6fe88-99d2-43f3-81da-88f91103df9a")
+	)
+	(wire
+		(pts
+			(xy 86.36 100.33) (xy 116.84 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66a7a434-34fd-44e2-a467-a5a824ff1088")
+	)
+	(wire
+		(pts
+			(xy 193.04 91.44) (xy 209.55 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79d0b937-cf57-4f7b-a167-283a7eb4d1e4")
+	)
+	(wire
+		(pts
+			(xy 149.86 91.44) (xy 166.37 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86794bb8-bdaa-4122-bccc-558abe110f9b")
+	)
+	(wire
+		(pts
+			(xy 157.48 105.41) (xy 149.86 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f49dd9e2-d3f6-4b60-bd64-42137c45c0e4")
+	)
+	(wire
+		(pts
+			(xy 199.39 100.33) (xy 193.04 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc2a85fe-0f51-448f-bccc-84e783d492aa")
+	)
+	(hierarchical_label "V_CM"
+		(shape input)
+		(at 86.36 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1d298ebe-4a77-4369-b758-a2ac06409105")
+	)
+	(hierarchical_label "V_F1"
+		(shape input)
+		(at 86.36 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2f7cc0d6-1710-4ba3-87c7-8e46fc2c4c9d")
+	)
+	(hierarchical_label "+V_DD"
+		(shape input)
+		(at 157.48 49.53 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d52b77a-b104-4899-87e0-12afc5305eee")
+	)
+	(hierarchical_label "V_F2"
+		(shape input)
+		(at 86.36 110.49 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d869671-928d-460d-b27a-ddfe7c27ec2e")
+	)
+	(hierarchical_label "V_EMG_OUT"
+		(shape input)
+		(at 209.55 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d03ec153-117e-4196-ad73-73df31854660")
+	)
+	(sheet
+		(at 166.37 86.36)
+		(size 26.67 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ebd75c2-4d7f-48d4-a0dc-d3adae36c4ad")
+		(property "Sheetname" "LPF_400Hz"
+			(at 166.37 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LPF_400Hz.kicad_sch"
+			(at 166.37 114.8846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_EMG_OUT" input
+			(at 193.04 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "76115612-a5b3-431f-8693-11f620faa5ea")
+		)
+		(pin "V_EMG_INA" input
+			(at 166.37 91.44 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "c087bf23-5477-49bd-80d1-18ae13d0f7e6")
+		)
+		(pin "+V_DD" input
+			(at 193.04 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f8b3c256-d9b4-4f97-8057-7047fb56bf9e")
+		)
+		(instances
+			(project "SigAcqModule_TwoSided"
+				(path "/35a76d6a-a0c5-4989-a335-ebbff193f82f/72fc0472-f3f0-421e-b55d-48068e512543"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 86.36)
+		(size 33.02 48.26)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e43befae-fde2-421e-a60d-f0a40d16233c")
+		(property "Sheetname" "first_amp_stage"
+			(at 116.84 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "first_amp_stage.kicad_sch"
+			(at 116.84 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "V_CM" input
+			(at 116.84 100.33 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4c102171-85e3-45c1-bb57-287eb9905990")
+		)
+		(pin "V_EMG_INA" input
+			(at 149.86 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ce6cee2c-6a67-4a7b-814a-50404fc474b1")
+		)
+		(pin "V_F2" input
+			(at 116.84 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6cd44a23-3777-4076-aa22-b0176251a706")
+		)
+		(pin "V_F1" input
+			(at 116.84 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "fc7ab0b0-9c8f-40bd-89cc-df5bda4b6014")
+		)
+		(pin "+V_DD" input
+			(at 149.86 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "20ae79ea-5bd9-420a-9af6-d645e5bdddc2")
+		)
+		(instances
+			(project "SigAcqModule_TwoSided"
+				(path "/35a76d6a-a0c5-4989-a335-ebbff193f82f/72fc0472-f3f0-421e-b55d-48068e512543"
+					(page "8")
+				)
+			)
+		)
+	)
+)
