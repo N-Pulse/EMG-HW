@@ -3743,7 +3743,7 @@
 				)
 			)
 		)
-		(symbol "SSAJ120100:SSAJ120100"
+		(symbol "SC12P-AQR:SC12P-AQR"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3756,7 +3756,7 @@
 					(justify left top)
 				)
 			)
-			(property "Value" "SSAJ120100"
+			(property "Value" "SC12P-AQR"
 				(at 21.59 5.08 0)
 				(effects
 					(font
@@ -3765,7 +3765,7 @@
 					(justify left top)
 				)
 			)
-			(property "Footprint" "SSAJ120100"
+			(property "Footprint" "SC12PAQR"
 				(at 21.59 -94.92 0)
 				(effects
 					(font
@@ -3775,7 +3775,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/SSAJ120100/#ancFig2"
+			(property "Datasheet" "http://www.dip.com.tw/en/en-product-information/en-switch005/item/2608-sc12p"
 				(at 21.59 -194.92 0)
 				(effects
 					(font
@@ -3785,7 +3785,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Surface MountRight Angle 10mA SPDT 5V 1 SMD Slide Switches ROHS"
+			(property "Description" "Slide Switches Slide Type 1P2T (3.0mm height)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3794,7 +3794,7 @@
 					(hide yes)
 				)
 			)
-			(property "Height" "0.9"
+			(property "Height" "3"
 				(at 21.59 -394.92 0)
 				(effects
 					(font
@@ -3804,7 +3804,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "688-SSAJ120100"
+			(property "Mouser Part Number" "113-SC12PAQR"
 				(at 21.59 -494.92 0)
 				(effects
 					(font
@@ -3814,7 +3814,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SSAJ120100?qs=35GPJvxY%252Bl5mRNwFoBrl2g%3D%3D"
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diptronics/SC12P-AQR?qs=MLItCLRbWszGVIV817kpxg%3D%3D"
 				(at 21.59 -594.92 0)
 				(effects
 					(font
@@ -3824,7 +3824,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "ALPS Electric"
+			(property "Manufacturer_Name" "Diptronics"
 				(at 21.59 -694.92 0)
 				(effects
 					(font
@@ -3834,7 +3834,7 @@
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "SSAJ120100"
+			(property "Manufacturer_Part_Number" "SC12P-AQR"
 				(at 21.59 -794.92 0)
 				(effects
 					(font
@@ -3844,7 +3844,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SSAJ120100_1_1"
+			(symbol "SC12P-AQR_1_1"
 				(rectangle
 					(start 5.08 2.54)
 					(end 20.32 -7.62)
@@ -3857,70 +3857,16 @@
 					)
 				)
 				(pin passive line
-					(at 25.4 0 180)
-					(length 5.08)
-					(name "NO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 25.4 -5.08 180)
-					(length 5.08)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 25.4 -2.54 180)
-					(length 5.08)
-					(name "COM"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 0 0 0)
 					(length 5.08)
-					(name "MP1"
+					(name "A1_NC"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "4"
+					(number "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3931,14 +3877,32 @@
 				(pin passive line
 					(at 0 -2.54 0)
 					(length 5.08)
-					(name "MP2"
+					(name "B1_COM"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "5"
+					(number "B1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "C1_NO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5484,10 +5448,10 @@
 		(uuid "1f8406b2-cc07-47e7-9b56-38dccccb7b99")
 	)
 	(junction
-		(at 120.65 72.39)
+		(at 120.65 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2c4d6503-87cb-4786-a649-dd880a45eb45")
+		(uuid "398ec7fa-4b50-45c8-bf20-8306f3f71907")
 	)
 	(junction
 		(at 120.65 20.32)
@@ -5526,28 +5490,22 @@
 		(uuid "7bb6c287-f378-4018-aedc-30e2c8ed9561")
 	)
 	(junction
-		(at 120.65 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8d80391f-e9cb-4082-8ad4-9565bf265348")
-	)
-	(junction
 		(at 82.55 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99ef0224-5243-4c45-8dbe-50b202a54ea9")
 	)
 	(junction
-		(at 120.65 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af2e7757-33d6-4ba0-9cee-7eebe601c61c")
-	)
-	(junction
 		(at 27.94 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b2f91fd5-d124-42ef-ac50-2b13e5fb08aa")
+	)
+	(junction
+		(at 120.65 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d0ffddbe-a01c-4fd0-9dd5-5cf1215ac5be")
 	)
 	(junction
 		(at 140.97 102.87)
@@ -5614,6 +5572,16 @@
 			(type default)
 		)
 		(uuid "02325cfe-7a2c-45ba-8e1c-92121a442080")
+	)
+	(wire
+		(pts
+			(xy 132.08 68.58) (xy 129.54 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "032ddd24-c697-4c51-b02a-c0373fb5a812")
 	)
 	(wire
 		(pts
@@ -5717,16 +5685,6 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 72.39) (xy 120.65 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "206a348d-586e-4f9d-8bc6-b4d68b8d3010")
-	)
-	(wire
-		(pts
 			(xy 120.65 19.05) (xy 120.65 20.32)
 		)
 		(stroke
@@ -5754,6 +5712,16 @@
 			(type default)
 		)
 		(uuid "23a926ca-96da-48d5-b388-2b37d0bc039b")
+	)
+	(wire
+		(pts
+			(xy 121.92 68.58) (xy 120.65 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f25c82-ec83-4dba-9ab0-570c3c6818f0")
 	)
 	(wire
 		(pts
@@ -5807,6 +5775,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 54.61) (xy 124.46 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c54d220-0775-40d0-a3f2-9e49203296fe")
+	)
+	(wire
+		(pts
 			(xy 111.76 19.05) (xy 111.76 30.48)
 		)
 		(stroke
@@ -5834,16 +5812,6 @@
 			(type default)
 		)
 		(uuid "303a5d52-1718-4f97-9fbc-8d84c6901fc8")
-	)
-	(wire
-		(pts
-			(xy 120.65 68.58) (xy 120.65 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "304334ad-8091-4bc5-a5e5-94968a29ceba")
 	)
 	(wire
 		(pts
@@ -5907,7 +5875,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 69.85) (xy 110.49 69.85)
+			(xy 107.95 52.07) (xy 110.49 52.07)
 		)
 		(stroke
 			(width 0)
@@ -5977,6 +5945,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 68.58) (xy 120.65 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55dce4b8-c2f5-439c-a2f0-b5cfe3572c66")
+	)
+	(wire
+		(pts
 			(xy 140.97 109.22) (xy 140.97 110.49)
 		)
 		(stroke
@@ -6007,7 +5985,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 21.59) (xy 100.33 78.74)
+			(xy 100.33 21.59) (xy 100.33 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6137,13 +6115,13 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 68.58) (xy 118.11 69.85)
+			(xy 124.46 57.15) (xy 120.65 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "818a4c5e-82b1-403f-8934-56d7c9686c23")
+		(uuid "821b22dc-6b95-47d7-80d7-4bb4c23a0062")
 	)
 	(wire
 		(pts
@@ -6164,6 +6142,16 @@
 			(type default)
 		)
 		(uuid "8a155ec9-9dd7-4aa1-8658-fb4743aa6825")
+	)
+	(wire
+		(pts
+			(xy 118.11 52.07) (xy 124.46 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8b730970-672b-43f5-b4a0-96d793f374ae")
 	)
 	(wire
 		(pts
@@ -6194,6 +6182,16 @@
 			(type default)
 		)
 		(uuid "9e21a0b3-d609-41e5-a3ec-8562728e800e")
+	)
+	(wire
+		(pts
+			(xy 120.65 57.15) (xy 120.65 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ec3538b-169f-43fc-bc0e-6c39105c14e9")
 	)
 	(wire
 		(pts
@@ -6367,7 +6365,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 69.85) (xy 107.95 71.12)
+			(xy 107.95 52.07) (xy 107.95 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6457,17 +6455,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 40.64) (xy 120.65 43.18)
+			(xy 120.65 40.64) (xy 120.65 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "df681577-9012-42fe-b979-0fadedbe521f")
+		(uuid "dd91bb81-f262-4876-b2cd-8aaedbf54b0a")
 	)
 	(wire
 		(pts
-			(xy 100.33 78.74) (xy 120.65 78.74)
+			(xy 100.33 68.58) (xy 120.65 68.58)
 		)
 		(stroke
 			(width 0)
@@ -6497,7 +6495,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 72.39) (xy 128.27 77.47)
+			(xy 132.08 68.58) (xy 132.08 69.85)
 		)
 		(stroke
 			(width 0)
@@ -6524,16 +6522,6 @@
 			(type default)
 		)
 		(uuid "faa81e30-32ea-4dd8-a01f-9a547e72e096")
-	)
-	(wire
-		(pts
-			(xy 120.65 78.74) (xy 120.65 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd5a01e5-4eb0-4ab3-b24f-4e7f8ae26740")
 	)
 	(text "3v3 to 1v8 converter"
 		(exclude_from_sim no)
@@ -8125,10 +8113,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "37029756-f714-4236-b8c2-13b4fe8cb898")
 		(property "Reference" "IC1"
-			(at 93.98 43.2114 0)
+			(at 93.472 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,7 +8123,7 @@
 			)
 		)
 		(property "Value" "EFR32BG13P732F512GM48-D"
-			(at 93.98 45.7514 0)
+			(at 93.472 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8703,7 +8690,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 114.3 69.85 0)
+		(at 114.3 52.07 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8712,7 +8699,7 @@
 		(dnp no)
 		(uuid "4b8844e9-af7c-42da-bb57-e6568d6471d7")
 		(property "Reference" "D4"
-			(at 111.252 62.992 0)
+			(at 111.252 45.212 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8720,7 +8707,7 @@
 			)
 		)
 		(property "Value" "RED LED"
-			(at 111.252 65.532 0)
+			(at 111.252 47.752 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8728,7 +8715,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 69.85 0)
+			(at 114.3 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8737,7 +8724,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 69.85 0)
+			(at 114.3 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8746,7 +8733,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 114.3 69.85 0)
+			(at 114.3 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9633,6 +9620,131 @@
 		)
 	)
 	(symbol
+		(lib_id "SC12P-AQR:SC12P-AQR")
+		(at 124.46 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7750d70d-b6b8-48fc-aa74-30f0b3cfc7c2")
+		(property "Reference" "S1"
+			(at 146.05 53.3399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SC12P-AQR"
+			(at 146.05 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SC12PAQR"
+			(at 146.05 146.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.dip.com.tw/en/en-product-information/en-switch005/item/2608-sc12p"
+			(at 146.05 246.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Slide Switches Slide Type 1P2T (3.0mm height)"
+			(at 124.46 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "3"
+			(at 146.05 446.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "113-SC12PAQR"
+			(at 146.05 546.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diptronics/SC12P-AQR?qs=MLItCLRbWszGVIV817kpxg%3D%3D"
+			(at 146.05 646.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Diptronics"
+			(at 146.05 746.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SC12P-AQR"
+			(at 146.05 846.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "C1"
+			(uuid "437a6168-ea42-46cb-8c40-2f1add97369e")
+		)
+		(pin "B1"
+			(uuid "bef7bf8a-b474-4adf-9333-7b21c3ee83e4")
+		)
+		(pin "A1"
+			(uuid "b17789e8-910f-4f27-8c28-2ab947ca38ac")
+		)
+		(instances
+			(project ""
+				(path "/f342d0b6-fa79-42c3-b491-044d5cde1fcc"
+					(reference "S1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 29.21 128.27 0)
 		(unit 1)
@@ -9769,7 +9881,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 128.27 77.47 0)
+		(at 132.08 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9778,7 +9890,7 @@
 		(fields_autoplaced yes)
 		(uuid "90dc79c2-b58a-4fea-8c94-5c00d9b95fb8")
 		(property "Reference" "#PWR019"
-			(at 128.27 83.82 0)
+			(at 132.08 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9787,7 +9899,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 128.27 82.55 0)
+			(at 132.08 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9795,7 +9907,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 128.27 77.47 0)
+			(at 132.08 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9804,7 +9916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 128.27 77.47 0)
+			(at 132.08 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9813,7 +9925,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 128.27 77.47 0)
+			(at 132.08 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9988,7 +10100,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "C_Small"
+		(property "Value" "100nF"
 			(at 143.51 107.9435 0)
 			(effects
 				(font
@@ -10310,7 +10422,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 71.12 0)
+		(at 107.95 53.34 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10320,7 +10432,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7f9ae75-6270-4eb8-ac45-70487dbed4b9")
 		(property "Reference" "#PWR020"
-			(at 107.95 77.47 0)
+			(at 107.95 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10329,7 +10441,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 76.2 0)
+			(at 107.95 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10337,7 +10449,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 71.12 0)
+			(at 107.95 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10346,7 +10458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 71.12 0)
+			(at 107.95 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10355,7 +10467,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 71.12 0)
+			(at 107.95 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10377,7 +10489,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 124.46 72.39 180)
+		(at 125.73 68.58 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10385,7 +10497,7 @@
 		(dnp no)
 		(uuid "b9390a93-90c5-4042-a8e4-528b5368a976")
 		(property "Reference" "D3"
-			(at 128.27 66.548 0)
+			(at 129.54 62.738 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10393,7 +10505,7 @@
 			)
 		)
 		(property "Value" "GREEN LED"
-			(at 128.27 69.088 0)
+			(at 129.54 65.278 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10401,7 +10513,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 124.46 72.39 0)
+			(at 125.73 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10410,7 +10522,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 124.46 72.39 0)
+			(at 125.73 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10419,7 +10531,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 124.46 72.39 0)
+			(at 125.73 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10437,137 +10549,6 @@
 			(project ""
 				(path "/f342d0b6-fa79-42c3-b491-044d5cde1fcc"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SSAJ120100:SSAJ120100")
-		(at 118.11 68.58 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be12c48b-e11d-443f-a73e-aedae0ff4527")
-		(property "Reference" "S1"
-			(at 127 54.6099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "SSAJ120100"
-			(at 127 57.1499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "SSAJ120100"
-			(at 213.03 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://tech.alpsalpine.com/e/products/detail/SSAJ120100/#ancFig2"
-			(at 313.03 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Surface MountRight Angle 10mA SPDT 5V 1 SMD Slide Switches ROHS"
-			(at 118.11 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.9"
-			(at 513.03 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "688-SSAJ120100"
-			(at 613.03 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Alps-Alpine/SSAJ120100?qs=35GPJvxY%252Bl5mRNwFoBrl2g%3D%3D"
-			(at 713.03 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "ALPS Electric"
-			(at 813.03 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SSAJ120100"
-			(at 913.03 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "01f5123b-1bc1-495d-b7a7-8fbf985b85db")
-		)
-		(pin "1"
-			(uuid "b7bcd17e-c7ff-45d7-b9a3-cf388d90b151")
-		)
-		(pin "4"
-			(uuid "568663e7-fb5e-4c1b-ab5f-61519690e00c")
-		)
-		(pin "3"
-			(uuid "274af317-3bcc-4518-a630-3a95c5db02fe")
-		)
-		(pin "2"
-			(uuid "20af3785-c8a4-4ec0-965b-5c07e85fb9ba")
-		)
-		(instances
-			(project ""
-				(path "/f342d0b6-fa79-42c3-b491-044d5cde1fcc"
-					(reference "S1")
 					(unit 1)
 				)
 			)
